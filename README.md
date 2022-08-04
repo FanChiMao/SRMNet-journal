@@ -65,10 +65,15 @@ pip install -r requirements.txt
 
 ## Visual results  
 
-| Task | Dataset | PSRN | SSIM | **SRMNet's Visual Results**|
-|:---:|:---:|:---:|:---:| :---:|
-|Denoising (Synthesized gaussian noise)| CBSD68 | 39.96 | 0.960 | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |  
-| Denoising | DND  | 39.84 | 0.954 | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |  
-
-
+| Task | Training Set | Testing Set | SRMNet's Visual Results|
+|:---:|:---:|:---:|:---:|
+|Denoising (Synthesized gaussian noise)| |CBSD68 | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
+|Denoising (Synthesized gaussian noise)| |Kodak24| [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |
+|Denoising (Real-world noise)| | SIDD  | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |
+|Denoising (Real-world noise)| | DND   | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |
+|Deraining (Synthesized rainstreak)| Rain13k | Rain100L | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
+|Deraining (Synthesized rainstreak)| Rain13k | Rain100H | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
+|Deraining (Synthesized rainstreak)| Rain13k | Test100 | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
+|Deraining (Synthesized rainstreak)| Rain13k | Test1200 | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
+|Deraining (Real-world raindrop)|RainDrop train|RainDrop TestA| [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |
 
