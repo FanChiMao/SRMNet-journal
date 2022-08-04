@@ -61,3 +61,14 @@ conda install -c conda-forge tensorboardx
 pip install -r requirements.txt
 ```
 
+
+
+## Visual results  
+
+| Task | Dataset | PSRN | SSIM | outputs |
+|:---:|:---:|:---:|:---:| :---:|
+| Denoising | CBSD68 | 39.96 | 0.960 | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |  
+| Denoising | DND  | 39.84 | 0.954 | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |  
+
+
+
