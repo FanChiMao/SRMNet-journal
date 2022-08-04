@@ -65,9 +65,9 @@ pip install -r requirements.txt
 
 ## Visual results  
 
-| Task | Dataset | PSRN | SSIM | outputs |
+| Task | Dataset | PSRN | SSIM | **SRMNet's Visual Results**|
 |:---:|:---:|:---:|:---:| :---:|
-| Denoising | CBSD68 | 39.96 | 0.960 | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |  
+|Denoising (Synthesized gaussian noise)| CBSD68 | 39.96 | 0.960 | [Dowmload](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/SIDD/) |  
 | Denoising | DND  | 39.84 | 0.954 | [images](https://console.cloud.google.com/storage/browser/gresearch/maxim/results/Denoising/DND/) |  
 
 
