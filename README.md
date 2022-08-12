@@ -67,13 +67,13 @@ pip install -r requirements.txt
 
 | Task | Training Set | Testing Set | SRMNet's Visual Results|
 |:---:|:---:|:---:|:---:|
-|Denoising (Synthesized gaussian noise)|DIV2K train|CBSD68 | [Dowmload](https://drive.google.com/drive/folders/1yXzUa6E4MAspijBz_rdCvvG55b6dovAt?usp=sharing) |
-|Denoising (Synthesized gaussian noise)|DIV2K train|Kodak24| [Dowmload](https://drive.google.com/drive/folders/1qKabGPr3G09xO07DoHIEQ9yJaGNHjfmk?usp=sharing) |
-|Denoising (Real-world noise)  |SIDD medium | SIDD|[Dowmload](https://drive.google.com/drive/folders/1LFbHBuV5Xh_shPcksTi2GIrkvsnA2xaE?usp=sharing) |
-|Denoising (Real-world noise)  |SIDD medium| DND  | [Dowmload](https://drive.google.com/drive/folders/1-KHHKxaB5HX8AcJA7IDR4w5YLQKEihJ-?usp=sharing) |
-|Deraining (Synthesized rainstreak)| Rain13k | Rain100L | [Dowmload](https://drive.google.com/drive/folders/1nvSOPpWPbZbP1ynWW7k__oaJKg6GLYBT?usp=sharing/) |
-|Deraining (Synthesized rainstreak)| Rain13k | Rain100H | [Dowmload](https://drive.google.com/drive/folders/1ISZS48gtDELwo7ZoIukrJ5lxeK9rnqqd?usp=sharing) |
-|Deraining (Synthesized rainstreak)| Rain13k | Test100 | [Dowmload](https://drive.google.com/drive/folders/1d9JeN3fhor6heCEV_eqPhdSck6RUnwpV?usp=sharing) |
-|Deraining (Synthesized rainstreak)| Rain13k | Test1200 | [Dowmload](https://drive.google.com/drive/folders/18pdWHLME-3V9cjfAXDX0-beD2H4Bx64w?usp=sharing) |
-|Deraining (Real-world raindrop)|RainDrop train|RainDrop TestA| [Dowmload](https://drive.google.com/drive/folders/1aJcRGjurK2PbgdFbTL6vSI3Xu3p2Nry-?usp=sharing) |
+|Denoising (Synthesized gaussian noise)|DIV2K train|CBSD68 | [Download](https://drive.google.com/drive/folders/1yXzUa6E4MAspijBz_rdCvvG55b6dovAt?usp=sharing) |
+|Denoising (Synthesized gaussian noise)|DIV2K train|Kodak24| [Download](https://drive.google.com/drive/folders/1qKabGPr3G09xO07DoHIEQ9yJaGNHjfmk?usp=sharing) |
+|Denoising (Real-world noise)  |SIDD medium | SIDD|[Download](https://drive.google.com/drive/folders/1LFbHBuV5Xh_shPcksTi2GIrkvsnA2xaE?usp=sharing) |
+|Denoising (Real-world noise)  |SIDD medium| DND  | [Download](https://drive.google.com/drive/folders/1-KHHKxaB5HX8AcJA7IDR4w5YLQKEihJ-?usp=sharing) |
+|Deraining (Synthesized rainstreak)| Rain13k | Rain100L | [Download](https://drive.google.com/drive/folders/1nvSOPpWPbZbP1ynWW7k__oaJKg6GLYBT?usp=sharing/) |
+|Deraining (Synthesized rainstreak)| Rain13k | Rain100H | [Download](https://drive.google.com/drive/folders/1ISZS48gtDELwo7ZoIukrJ5lxeK9rnqqd?usp=sharing) |
+|Deraining (Synthesized rainstreak)| Rain13k | Test100 | [Download](https://drive.google.com/drive/folders/1d9JeN3fhor6heCEV_eqPhdSck6RUnwpV?usp=sharing) |
+|Deraining (Synthesized rainstreak)| Rain13k | Test1200 | [Download](https://drive.google.com/drive/folders/18pdWHLME-3V9cjfAXDX0-beD2H4Bx64w?usp=sharing) |
+|Deraining (Real-world raindrop)|RainDrop train|RainDrop TestA| [Download](https://drive.google.com/drive/folders/1aJcRGjurK2PbgdFbTL6vSI3Xu3p2Nry-?usp=sharing) |
 
