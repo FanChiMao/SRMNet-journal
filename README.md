@@ -60,6 +60,58 @@ conda install pytorch=1.8 torchvision cudatoolkit=10.2 -c pytorch
 conda install -c conda-forge tensorboardx
 pip install -r requirements.txt
 ```
+## Prepare datasets  
+The preparation of dataset in more detail, see [**datasets/README.md**](datasets/README.md).  
+In our experiments, we crop both training & testing data with the size of `256x256` by the preprocess codes in `./datasets`.  
+
+## Train  
+To train the restoration models of SRMNet. You should check the following components are correct:  
+<details>  
+<summary>training.yaml (Take real-world defoucs blur for example)  </summary>   
+  
+ ```
+  # Training configuration
+    GPU: [0,1,2,3]
+
+    VERBOSE: False
+
+    MODEL:
+      MODE: 'Deblurring_DPDD_5e-4to1e-4_L1DCTEdge'
+      SESSION: 'CMFNet'
+
+    # Optimization arguments.
+    OPTIM:
+      BATCH: 1
+      EPOCHS: 100
+      # NEPOCH_DECAY: [10]
+      LR_INITIAL: 5e-4
+      LR_MIN: 1e-4
+      # BETA1: 0.9
+
+    TRAINING:
+      VAL_AFTER_EVERY: 1
+      RESUME: True
+      TRAIN_PS: 256
+      VAL_PS: 256
+      TRAIN_DIR: './dataset/Deblur/REDS_patch/train'       # path to training data
+      VAL_DIR: './dataset/Deblur/REDS_patch/test' # path to validation data
+      SAVE_DIR: './checkpoints'           # path to save models and images
+  ```
+</details>  
+
+If the data path and above configuration are all correctly setting, just simply run:  
+```
+python train.py
+```  
+
+## Demo
+To demo the deblurring models and acquire the visual results, please check the parameters in [**demo.py**](demo.py) and run: 
+```
+python demo.py
+```  
+
+## Test  
+To test (evaluate) the quantitative scores of different datasets, see [**`evaluation_codes`**](evaluation_codes).  
 
 ## Visual results  
 
